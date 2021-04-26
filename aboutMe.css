@@ -1,0 +1,39 @@
+/*aboutMe*/
+.aboutMe {
+    color: #3c481b;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    background: #fbe4df;
+    border-radius: 50px 50px 0px 0px;
+    text-shadow: 10px 10px 45px;
+  }
+  .aboutMe__section {
+    line-height: 1.6;
+    color: #3c481b;
+    background: #fbe4df;
+    border-radius: 0px 0px 50px 50px;
+    text-align: center;
+  }
+  .aboutMe__paragraph {
+    color: hsl(76, 45%, 50%);
+  }
+  .aboutMe__pictureOfMe {
+    max-width: 400px;
+    padding: 10px;
+    background-color: #fbe4df;
+    border-radius: 6px;
+    display: block;
+    margin: auto;
+    border-radius: 20px 50px;
+  }
+  .aboutMe__button {
+    display: block;
+    margin: auto;
+    color: #fbe4df;
+    background-color: #3c481b;
+    padding: 6px;
+  }
+  .aboutMe__pictureOfMe--hidden {
+    display: none;
+  }

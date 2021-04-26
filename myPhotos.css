@@ -1,0 +1,28 @@
+/*myPhotos*/
+.myPhotos {
+    color: #3c481b;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    background: #fbe4df;
+    border-radius: 50px;
+    text-shadow: 10px 10px 45px;
+  }
+  .myPhotos__element {
+    display: block;
+    max-width: 600px;
+    padding: 10px;
+    background-color: #fbe4df;
+    border-radius: 20px 50px;
+    margin: auto;
+  }
+  .myPhotos__hide {
+    display: none;
+  }
+  .myPhotos__changeButton {
+    display: block;
+    margin: auto;
+    color: #fbe4df;
+    background-color: #3c481b;
+    padding: 6px;
+  }

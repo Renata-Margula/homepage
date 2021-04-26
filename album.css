@@ -1,0 +1,40 @@
+/*favoriteAlbum*/
+.album {
+    color: #3c481b;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    background: #fbe4df;
+    border-radius: 50px 50px 0px 0px;
+    text-shadow: 10px 10px 45px;
+  }
+  .album__tracks {
+    margin: auto;
+    padding: 10px;
+    overflow-x: auto;
+    color: #3c481b;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
+    background: #fbe4df;
+  }
+  .album__cover {
+    position: relative;
+    max-width: 100px;
+    margin: auto;
+  }
+  .table {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  .table__header {
+    text-align: left;
+    outline: 1px solid;
+  }
+  .table__cell {
+    text-align: center;
+    outline: 1px solid;
+  }
+  .table__cell--active:hover {
+    outline: 3px double;
+  }

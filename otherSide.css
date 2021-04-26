@@ -1,0 +1,17 @@
+/*pageHeaderMeaning*/
+.otherSide {
+    color: #3c481b;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2;
+    background: #fbe4df;
+    border-radius: 50px 50px 0px 0px;
+    text-shadow: 10px 10px 45px;
+  }
+  .otherSide__meaning {
+    line-height: 1.6;
+    color: #3c481b;
+    background: #fbe4df;
+    border-radius: 0px 0px 50px 50px;
+    text-align: center;
+  }
