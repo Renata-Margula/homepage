@@ -6,7 +6,7 @@
 - [Usage](#usage)
 
 ## Info
-INNA STRONA MOCY is the page where you can find my progress on the Youcode course "FrontEnd Development - from scrach"
+INNA STRONA MOCY is a page where you can find my progress on the Youcode course "FrontEnd Developer - from scrach"
 
 ## Technologies
 - HTML
