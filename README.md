@@ -1,12 +1,24 @@
-# Renata Margula - "Inna strona mocy"
+# ["INNA STRONA MOCY"](https://shadoo1.github.io/homepage/)
 
-![pictureOfMe](https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-9/169076040_1118563981899662_8031226706580149248_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=0debeb&_nc_ohc=Zoy18nF35UMAX-COKhb&_nc_ht=scontent-cdg2-1.xx&oh=eecbb9d1c86c1bbeefc139cc83cc3c51&oe=608EEF6D)
+## Table of contents:
+- [Info](#info)
+- [Technologies](#technologies)
+- [Usage](#usage)
 
-## DEMO
+## Info
+INNA STRONA MOCY is the page where you can find my progress on the Youcode course "FrontEnd Development - from scrach"
 
-https://shadoo1.github.io/homepage/
+## Technologies
+- HTML
+- CSS
+- BEM
+- ES6+ features
 
-##OPIS PROJEKTU
+## Usage
+1. Show/hide a picture by clicking "Schowaj mnie/ Przywróć"
+2. See another picture by cicking "Pokaż inne zdjęcie"
+3. Choose and listen one of my favorite song by clicking headphones icons.
 
-Jak uruchomić projekt?
+![](https://raw.githubusercontent.com/shadoo1/homepage/57000afbe9099e05a0fcaf295e2c2e089f89afc5/images/usageHomepage.gif)
 
+Enjoy! 🤗
