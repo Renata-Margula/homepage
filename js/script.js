@@ -1,10 +1,5 @@
 {
 
-const welcome = () => {
-  console.log("HELLO WORLD");
-}
-welcome();
-
 const onHideShowPhotoClick = () => {
   aboutMe__pictureOfMe.classList.toggle("aboutMe__pictureOfMe--hidden");
   aboutMe__button.innerHTML =
@@ -29,3 +24,7 @@ myPhotos__changeButton.addEventListener("click", onChangePhotoClick);
 
 }
 
+const init = () => {
+  console.log("HELLO WORLD");
+}
+init();
