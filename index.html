@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <link href="css/style.css" rel="stylesheet">
-  <link href="css/aboutMe.css" rel="stylesheet">
+  <link href="css/article.css" rel="stylesheet">
   <link href="css/album.css" rel="stylesheet">
-  <link href="css/myPhotos.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
   <link href="css/navigation.css" rel="stylesheet">
-  <link href="css/otherSide.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
   <script defer src="js/script.js"></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,153 +25,154 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
     rel="stylesheet">
-  <header class="pageHeader">
+  <header class="header">
     <h1>INNA STRONA MOCY</h1>
   </header>
   <nav class="navigation">
     <ul class="navigation__list">
-      <li class="navigation__listItem">
+      <li class="navigation__item">
         <p><a class="navigation__link" href="#inna-strona">Inna strona mocy</a></p>
       </li>
-      <li class="navigation__listItem">
+      <li class="navigation__item">
         <p><a class="navigation__link" href="#o-mnie">O mnie</a></p>
       </li>
-      <li class="navigation__listItem">
+      <li class="navigation__item">
         <p><a class="navigation__link" href="#moje-zdjecia">Moje zdjęcia</a></p>
       </li>
-      <li class="navigation__listItem"><a class="navigation__link" href="#ulubiony">Ulubiony album</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#ulubiony">Ulubiony album</a></li>
     </ul>
   </nav>
-  <h1 id="inna-strona" class="otherSide">CZYM WŁAŚCIWIE JEST<br>"INNA STRONA MOCY"?</h1>
-  <article class="otherSide__meaning">Oczywiście, jest to <strong>programowanie!</strong>:)<p>Moja przygoda dopiero się
+  <h1 id="inna-strona" class="mainHeader">CZYM WŁAŚCIWIE JEST<br>"INNA STRONA MOCY"?</h1>
+  <article class="article">Oczywiście, jest to <strong>programowanie!</strong>:)<p>Moja przygoda dopiero się
       zaczyna, ale kto wie, może stanie się to moją główną drogą zawodową</p>lub będę w stanie mocno powiązać bycie
     Frontend Deweloperem z fotografią.<p>
       Pozdrawiam i życzę Nam wszystkim wytrwałości!</p>
   </article>
   <main id="o-mnie">
-    <h2 class="aboutMe">KILKA SŁÓW O MNIE</h2>
-    <section class="aboutMe__section">
-      <img class="aboutMe__pictureOfMe" ; src="https://i.ibb.co/7kZT73k/ja.jpg"
-        alt="Na zdjęciu autorka strony - Renata">
-      <button class="aboutMe__button">Schowaj mnie</button>
-      <article class="aboutMe__article">
+    <h2 class="mainHeader">KILKA SŁÓW O MNIE</h2>
+    <section>
+      <article class="article">
+        <img class="article__image" ; src="https://i.ibb.co/7kZT73k/ja.jpg" alt="Na zdjęciu autorka strony - Renata">
+        <button class="article__button">Schowaj mnie</button>
         <p>Cześć! Jestem <b>Renata</b>. Mam 28 lat i mieszkam we Wrocławiu.</p>
-        <p class="aboutMe__paragraph">Pracuję w księgowości, ale chciałabym urozmaicić swoje życie zawodowe,</p>
+        <p class="article__paragraph">Pracuję w księgowości, ale chciałabym urozmaicić swoje życie zawodowe,</p>
         <p> a może nawet przejść na <em>inną stronę mocy</em>.
           Uwielbiam podróże, góry, naturę,</p>
         <p> dlatego również, hobbistycznie pstrykam zdjęcia.</p>
       </article>
     </section>
     <p>
-    <h2 id="moje-zdjecia" class="myPhotos">MOJE ZDJĘCIA</h2>
-    <div class="idyllPhoto"><img class="myPhotos__element"
+    <h2 id="moje-zdjecia" class="mainHeader">MOJE ZDJĘCIA</h2>
+    <section class="section">
+      <img id="idylla" class="section__image"
         src="https://i.ibb.co/dt0Z9Fh/107217860-929999867422742-8090492148006567921-n.jpg"
-        alt="Zdjęcie górskiego krajobrazu - Idylla"></div>
-    <div class="weatherWindowPhoto myPhotos--hide"><img class="myPhotos__element"
+        alt="Zdjęcie górskiego krajobrazu - Idylla">
+      <img id="okno-pogodowe" class="section__image section__image--hide"
         src="https://i.ibb.co/f49QF3s/123137572-1019236841832377-7379518231168932247-n.jpg"
-        alt="Zdjęcie górskiego krajobrazu - Okno pogodowe"></div>
-    <div><button class="myPhotos__changeButton">Zobacz inne zdjęcie</button>
-      <h2 id="ulubiony" class="album">ULUBIONY ALBUM</h2>
-      <div class="album__tracks">
-        <table class="table">
-          <caption class="table__caption">Chris Cornell - Higher Truth</caption>
-          <tr class="table__row">
-            <td class="table__header" scope="col">Tutył kawałka</th>
-            <td class="table__header" scope="col">Długość</th>
-            <td class="table__header" scope="col">Posłuchaj (w nowej karcie)</th>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Nearly Forgot My Broken Heart"</th>
-            <td class="table__cell">3:54</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=zpMfZPAc1kg">🎧</a></td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Dead Wishes"</th>
-            <td class="table__cell">4:55</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=X-uapBHqZIA&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=2">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Worried Moon"</th>
-            <td class="table__cell">4:32</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=WZ3e8fvUIoI&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=3">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Before We Disappear"</th>
-            <td class="table__cell">3:51</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=e_NRjvopfLU&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=4">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Through the Window"</th>
-            <td class="table__cell">4:41</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=JiowFZvz47k&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=5">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Josephine"</th>
-            <td class="table__cell">3:38</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=fmbADckg7M8&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=6">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Murderer of Blue Skies"</th>
-            <td class="table__cell">3:42</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=BvjdOJyksbQ&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=7">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Higher Truth"</th>
-            <td class="table__cell">5:06</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=7V4rTnGs8Jo&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=8">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Let Your Eyes Wander"</th>
-            <td class="table__cell">3:42</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=_yDlCgJG6qU&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=9">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Only These Words"</th>
-            <td class="table__cell">3:29</td>
-            <td class="table__cell table__cell--active""><a rel=" noreferrer noopener" target="_blank"
+        alt="Zdjęcie górskiego krajobrazu - Okno pogodowe">
+      <div><button class="section__button">Zobacz inne zdjęcie</button></div>
+    </section>
+    <h2 id="ulubiony" class="album">ULUBIONY ALBUM</h2>
+    <div class="album__tracks">
+      <table class="table">
+        <caption class="table__caption">Chris Cornell - Higher Truth</caption>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="col">Tutył kawałka</th>
+          <td class="table__cell table__cell--header" scope="col">Długość</th>
+          <td class="table__cell table__cell--header" scope="col">Posłuchaj (w nowej karcie)</th>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Nearly Forgot My Broken Heart"</th>
+          <td class="table__cell">3:54</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=zpMfZPAc1kg">🎧</a></td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Dead Wishes"</th>
+          <td class="table__cell">4:55</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=X-uapBHqZIA&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=2">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Worried Moon"</th>
+          <td class="table__cell">4:32</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=WZ3e8fvUIoI&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=3">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Before We Disappear"</th>
+          <td class="table__cell">3:51</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=e_NRjvopfLU&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=4">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Through the Window"</th>
+          <td class="table__cell">4:41</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=JiowFZvz47k&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=5">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Josephine"</th>
+          <td class="table__cell">3:38</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=fmbADckg7M8&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=6">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Murderer of Blue Skies"</th>
+          <td class="table__cell">3:42</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=BvjdOJyksbQ&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=7">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Higher Truth"</th>
+          <td class="table__cell">5:06</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=7V4rTnGs8Jo&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=8">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Let Your Eyes Wander"</th>
+          <td class="table__cell">3:42</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=_yDlCgJG6qU&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=9">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Only These Words"</th>
+          <td class="table__cell">3:29</td>
+          <td class="table__cell table__cell--active"><a rel=" noreferrer noopener" target="_blank"
               href="https://www.youtube.com/watch?v=86SiHDoGStQ&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=10">
               🎧</a></td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Circling"</th>
-            <td class="table__cell">3:28</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=TPf5-YH-E28&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=11">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">"Our Time in the Universe"</th>
-            <td class="table__cell">4:19</td>
-            <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
-                href="https://www.youtube.com/watch?v=u4eGIagnR4Y&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=12">🎧</a>
-            </td>
-          </tr>
-          <tr class="table__row">
-            <td class="table__header" scope="row">Długość całego albumu:</th>
-            <td class="table__cell" scope="row" colspan="2">49:17</td>
-          </tr>
-          <img class="album__cover" ; src="https://images-na.ssl-images-amazon.com/images/I/81uHZ2Q-MHL._SL1200_.jpg"
-            alt="my favorite album cover">
-        </table>
-        <footer class="footer">Copyright 2021 © Wszelkie prawa zastrzeżone.</footer>
-      </div>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Circling"</th>
+          <td class="table__cell">3:28</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=TPf5-YH-E28&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=11">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">"Our Time in the Universe"</th>
+          <td class="table__cell">4:19</td>
+          <td class="table__cell table__cell--active"><a rel="noreferrer noopener" target="_blank"
+              href="https://www.youtube.com/watch?v=u4eGIagnR4Y&list=OLAK5uy_kHuFz8J3LaWHWWwe2eG1-CVtEhAfLPGkQ&index=12">🎧</a>
+          </td>
+        </tr>
+        <tr class="table__row">
+          <td class="table__cell table__cell--header" scope="row">Długość całego albumu:</th>
+          <td class="table__cell" scope="row" colspan="2">49:17</td>
+        </tr>
+        <img class="album__cover" ; src="https://images-na.ssl-images-amazon.com/images/I/81uHZ2Q-MHL._SL1200_.jpg"
+          alt="my favorite album cover">
+      </table>
+      <footer class="footer">Copyright 2021 © Wszelkie prawa zastrzeżone.</footer>
+    </div>
 </body>
 
 </html>
