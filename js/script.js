@@ -1,26 +1,25 @@
 {
 
   const onHideShowPhotoClick = () => {
-    aboutMe__pictureOfMe.classList.toggle("aboutMe__pictureOfMe--hidden");
-    aboutMe__button.innerHTML =
-      aboutMe__button.innerHTML === "Schowaj mnie" ? "Przywróć" : "Schowaj mnie";
+    article__image.classList.toggle("article__image--hidden");
+    article__button.innerHTML =
+      article__button.innerHTML === "Schowaj mnie" ? "Przywróć" : "Schowaj mnie";
   }
-  const aboutMe__button = document.querySelector(".aboutMe__button");
-  const aboutMe__pictureOfMe = document.querySelector(".aboutMe__pictureOfMe");
-  aboutMe__button.addEventListener("click", onHideShowPhotoClick);
+  const article__button = document.querySelector(".article__button");
+  const article__image = document.querySelector(".article__image");
+  article__button.addEventListener("click", onHideShowPhotoClick);
 
 }
 
 {
   const onChangePhotoClick = () => {
-    idyllPhoto.classList.toggle("myPhotos--hide");
-    weatherWindowPhoto.classList.toggle("myPhotos--hide");
+    img1.classList.toggle("section__image--hide");
+    img2.classList.toggle("section__image--hide");
   }
-  const idyllPhoto = document.querySelector(".weatherWindowPhoto");
-  const weatherWindowPhoto = document.querySelector(".idyllPhoto");
-  const myPhotos__changeButton = document.querySelector(".myPhotos__changeButton");
-
-  myPhotos__changeButton.addEventListener("click", onChangePhotoClick);
+  const section__button = document.querySelector(".section__button");
+  const img1 = document.getElementById("idylla");
+  const img2 = document.getElementById("okno-pogodowe");
+  section__button.addEventListener("click", onChangePhotoClick);
 
 }
 
