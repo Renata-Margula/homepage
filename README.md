@@ -1,4 +1,4 @@
-# ["INNA STRONA MOCY"](https://shadoo1.github.io/homepage/)
+# ["INNA STRONA MOCY"](https://renata-margula.github.io/homepage/)
 
 ## Table of contents:
 - [Info](#info)
